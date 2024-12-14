@@ -5,6 +5,6 @@ services:
       dockerfile: Dockerfile
     entrypoint: php artisan octane:frankenphp --workers=8
     ports:
-      - "2082:80"
+      - "2087:80"
     volumes:
       - .:/app
