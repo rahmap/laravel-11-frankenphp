@@ -5,7 +5,7 @@ RUN install-php-extensions pcntl opcache
 # Enable PHP production settings
 RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"
 
-ENV SERVER_NAME=frankenphp.belisc.com
+ENV SERVER_NAME=f.belisc.com
 
 COPY . /app
 
